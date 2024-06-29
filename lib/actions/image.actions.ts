@@ -91,7 +91,7 @@ export async function getAllImages({
 
     });
 
-    let expression = "folder=artisty_ai";
+    let expression = "folder=Pixio";
 
     if (searchQuery) {
       expression += ` AND ${searchQuery}`;
